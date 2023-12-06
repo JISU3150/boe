@@ -1,0 +1,421 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-style: normal;
+}
+body {
+  color: #222;
+  overflow-x: hidden;
+  font-family: "Pretendard-Regular";
+  /* font-family: 'Lora', serif; */
+}
+
+/*pc*/
+@media all and (min-width: 1221px) {
+  /*header*/
+  header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2vw;
+    font-weight: bold;
+    align-items: center;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+  }
+  .hambg_bar {
+    display: none;
+  }
+  .hambg_menu {
+    display: none;
+  }
+  header h1 {
+    width: 10%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+  }
+  header h1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  header h1 a img {
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+  }
+  header .navi {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .navi a:hover {
+    color: #937960;
+    transition: 0.5s;
+  }
+  header .log {
+    width: 10%;
+    height: 100%;
+    line-height: 80px;
+    text-align: center;
+    cursor: pointer;
+  }
+  header .log ul {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 20;
+    display: none;
+  }
+  header .log ul li {
+    width: 100%;
+    height: 33.3333333333%;
+  }
+  header .log ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 0.9vw;
+    text-align: center;
+    line-height: 3vh;
+  }
+  header .log ul li a:hover {
+    color: #555;
+  }
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1220px) {
+  /*header*/
+  header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    font-weight: bold;
+    align-items: center;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+  }
+  .hambg_bar {
+    display: none;
+  }
+  .hambg_menu {
+    display: none;
+  }
+  header h1 {
+    width: 10%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+  }
+  header h1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  header h1 a img {
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+  }
+  header .navi {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .navi a:hover {
+    color: #937960;
+    transition: 0.5s;
+  }
+  header .log {
+    width: 10%;
+    height: 100%;
+    line-height: 80px;
+    text-align: center;
+    cursor: pointer;
+  }
+  header .log ul {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 20;
+    display: none;
+  }
+  header .log ul li {
+    width: 100%;
+    height: 33.3333333333%;
+  }
+  header .log ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 0.9vw;
+    text-align: center;
+    line-height: 3vh;
+  }
+  header .log ul li a:hover {
+    color: #555;
+  }
+}
+
+/*mobile*/
+@media (min-width: 391px) and (max-width: 767px) {
+  /*header*/
+  header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    font-weight: bold;
+    align-items: center;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+  }
+  .navi {
+    display: none;
+  }
+  .log {
+    display: none;
+  }
+  header h1 {
+    width: 15%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 99;
+  }
+  header h1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  header h1 a img {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+  }
+  .hambg_bar {
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+  }
+  .bar {
+    width: 30%;
+    height: 2px;
+    background: #222;
+    position: absolute;
+    transition: 0.5s;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bar1 {
+    top: 0%;
+  }
+  .bar2 {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bar3 {
+    top: 100%;
+  }
+  .bar.on.bar1 {
+    transform: rotate(45deg) translateX(-50%);
+    transition: 0.5;
+    top: 105%;
+  }
+  .bar.on.bar2 {
+    opacity: 0;
+    transition: 0.5;
+  }
+  .bar.on.bar3 {
+    transform: rotate(-45deg) translateX(-50%);
+    transition: 0.5;
+    top: 0%;
+  }
+  .hambg_menu {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    position: absolute;
+    right: -100%;
+    top: 0;
+    transition: 0.5s;
+  }
+  .hambg_menu.on {
+    right: 0%;
+    transition: 0.5s;
+  }
+  .hambg_menu ul {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    font-size: 5vw;
+  }
+  .hambg_menu li {
+    margin-bottom: 2vh;
+  }
+  .hambg_menu a {
+    transition: 0.5s;
+  }
+}
+
+/*iphone 12pro*/
+@media (max-width: 390px) {
+  /*header*/
+  header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    font-weight: bold;
+    align-items: center;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+  }
+  .navi {
+    display: none;
+  }
+  .log {
+    display: none;
+  }
+  header h1 {
+    width: 27%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 99;
+  }
+  header h1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  header h1 a img {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+  }
+  .hambg_bar {
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+  }
+  .bar {
+    width: 30%;
+    height: 2px;
+    background: #222;
+    position: absolute;
+    transition: 0.5s;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bar1 {
+    top: 0%;
+  }
+  .bar2 {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bar3 {
+    top: 100%;
+  }
+  .bar.on.bar1 {
+    transform: rotate(45deg) translateX(-50%);
+    transition: 0.5;
+    top: 105%;
+  }
+  .bar.on.bar2 {
+    opacity: 0;
+    transition: 0.5;
+  }
+  .bar.on.bar3 {
+    transform: rotate(-45deg) translateX(-50%);
+    transition: 0.5;
+    top: 0%;
+  }
+  .hambg_menu {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    position: absolute;
+    right: -100%;
+    top: 0;
+    transition: 0.5s;
+  }
+  .hambg_menu.on {
+    right: 0%;
+    transition: 0.5s;
+  }
+  .hambg_menu ul {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    font-size: 8vw;
+  }
+  .hambg_menu li {
+    margin-bottom: 2vh;
+  }
+  .hambg_menu a {
+    transition: 0.5s;
+  }
+}
