@@ -1,5 +1,5 @@
 $(function () {
-  let con2 = $(".con2").offset().top - 300;
+  let con2 = $(".con2").offset().top - 500;
 
   $(window).scroll(function () {
     let scroll = $(window).scrollTop();

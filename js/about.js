@@ -26,10 +26,10 @@ $(function () {
   }, 4400);
 
   /*scroll*/
-  let intro1 = $(".intro1").offset().top - 300;
-  let intro2 = $(".intro2").offset().top - 300;
-  let intro3 = $(".intro3").offset().top - 300;
-  let location = $(".location").offset().top - 300;
+  let intro1 = $(".intro1").offset().top - 500;
+  let intro2 = $(".intro2").offset().top - 500;
+  let intro3 = $(".intro3").offset().top - 500;
+  let location = $(".location").offset().top - 500;
 
   $(window).scroll(function () {
     $(this).index();

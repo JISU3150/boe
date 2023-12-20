@@ -67,10 +67,10 @@ $(function () {
   }, 3000);
 
   /*scroll*/
-  let con1 = $(".con1").offset().top - 300;
-  let con2 = $(".con2").offset().top - 300;
-  let con3 = $(".con3").offset().top - 300;
-  let con4 = $(".con4").offset().top - 300;
+  let con1 = $(".con1").offset().top - 500;
+  let con2 = $(".con2").offset().top - 500;
+  let con3 = $(".con3").offset().top - 500;
+  let con4 = $(".con4").offset().top - 500;
 
   $(window).scroll(function () {
     let scroll = $(window).scrollTop();

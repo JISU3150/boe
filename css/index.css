@@ -79,7 +79,7 @@ body {
   .con1 .con1_text h3.on {
     opacity: 1;
     transition: 1s;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
     transform: translateY(0px);
   }
   .con1 .con1_text p {
@@ -91,7 +91,7 @@ body {
   .con1 .con1_text p.on {
     opacity: 1;
     transition: 1s;
-    transition-delay: 2s;
+    transition-delay: 1s;
     transform: translateY(0px);
   }
   .con1 .con1_left_img {
@@ -166,7 +166,7 @@ body {
   .con1 .con1_title.on {
     opacity: 1;
     transition: 1s;
-    transition-delay: 2.5s;
+    transition-delay: 1.5s;
   }
   /*con2*/
   .con2 {
@@ -257,7 +257,7 @@ body {
     opacity: 1;
     transform: translatex(0px);
     transition: 1s;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
   }
   .con2 .con2_content .con2_left .con2_left_brand:hover .brand_text {
     opacity: 1;
@@ -294,7 +294,7 @@ body {
   .con2 .con2_content .con2_left .con2_title_1.on {
     opacity: 1;
     transition: 1s;
-    transition-delay: 2s;
+    transition-delay: 1.5s;
   }
   .con2 .con2_content .con2_right {
     width: 23vw;
@@ -358,7 +358,7 @@ body {
     opacity: 1;
     transform: translatex(0px);
     transition: 1s;
-    transition-delay: 1s;
+    transition-delay: 0.8s;
   }
   .con2 .con2_content .con2_right .con2_right_designer:hover .designer_text {
     opacity: 1;
@@ -399,7 +399,7 @@ body {
   .con2 .con2_content .con2_right .con2_title_2.on {
     opacity: 1;
     transition: 1s;
-    transition-delay: 2s;
+    transition-delay: 1.5s;
   }
   .con3 {
     width: 100%;
@@ -462,7 +462,7 @@ body {
     opacity: 1;
     transform: translateY(0px);
     transition: 1s;
-    transition-delay: 1s;
+    transition-delay: 0.3s;
   }
   .con3 .con3_left .year_list {
     width: 40%;
@@ -515,22 +515,22 @@ body {
   .con3 .con3_left .year_list .list li .year1.on {
     opacity: 1;
     transform: translateX(0px);
-    transition: 1s;
+    transition: 0.5s;
   }
   .con3 .con3_left .year_list .list li .year2.on {
     opacity: 1;
     transform: translateX(0px);
-    transition: 1s;
+    transition: 0.5s;
   }
   .con3 .con3_left .year_list .list li .year3.on {
     opacity: 1;
     transform: translateX(0px);
-    transition: 1s;
+    transition: 0.5s;
   }
   .con3 .con3_left .year_list .list li .year4.on {
     opacity: 1;
     transform: translateX(0px);
-    transition: 1s;
+    transition: 0.5s;
   }
   .con3 .con3_left .year_list .list li.active .year {
     border-bottom: 1px solid #222;
@@ -588,8 +588,8 @@ body {
   .con3 .con3_right .con3_img_wrap .con3_img1.on {
     opacity: 1;
     top: 0%;
-    transition: 1s;
-    transition-delay: 3s;
+    transition: 0.5s;
+    transition-delay: 1.5s;
   }
   .con3 .con3_right .con3_img_wrap .con3_img2 {
     width: 58%;
@@ -616,8 +616,8 @@ body {
   .con3 .con3_right .con3_img_wrap .con3_img2.on {
     opacity: 1;
     right: 0%;
-    transition: 1s;
-    transition-delay: 3.5s;
+    transition: 0.5s;
+    transition-delay: 1.8s;
   }
   .con3 .con3_right .con3_img_wrap .con3_img3 {
     width: 58%;
@@ -644,8 +644,8 @@ body {
   .con3 .con3_right .con3_img_wrap .con3_img3.on {
     opacity: 1;
     left: 0%;
-    transition: 1s;
-    transition-delay: 4.5s;
+    transition: 0.5s;
+    transition-delay: 2.1s;
   }
   .con3 .con3_right .con3_img_wrap .con3_img4 {
     width: 40%;
@@ -672,8 +672,8 @@ body {
   .con3 .con3_right .con3_img_wrap .con3_img4.on {
     opacity: 1;
     bottom: 0%;
-    transition: 1s;
-    transition-delay: 4s;
+    transition: 0.5s;
+    transition-delay: 2.4s;
   }
   .con4 {
     width: 100%;
@@ -2438,7 +2438,7 @@ body {
   }
   .con1 .con1_left_img {
     width: 50vw;
-    height: 55vw;
+    height: 50vw;
     border-radius: 50%;
     overflow: hidden;
     margin: 0px auto;

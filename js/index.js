@@ -1,4 +1,5 @@
 $(function () {
+  // $("html, body").animate({ scrollTop: "0", slow });
   /*login menu slide*/
   $(".log").mouseover(function () {
     $(".log>ul").stop().slideDown(500);
@@ -8,7 +9,7 @@ $(function () {
   });
 
   /*scroll*/
-  let base = -100;
+  let base = -500;
   let con1 = $(".con1").offset().top + base;
   let con2 = $(".con2").offset().top + base;
   let con3 = $(".con3").offset().top + base;
@@ -41,16 +42,16 @@ $(function () {
       $(".con3_img4").addClass("on");
       setTimeout(function () {
         $(".year1").addClass("on");
-      }, 2000);
+      }, 800);
       setTimeout(function () {
         $(".year2").addClass("on");
-      }, 2300);
+      }, 1100);
       setTimeout(function () {
         $(".year3").addClass("on");
-      }, 2600);
+      }, 1300);
       setTimeout(function () {
         $(".year4").addClass("on");
-      }, 2900);
+      }, 1600);
     }
     if (con4 <= scroll) {
       $(".show_title").addClass("on");
